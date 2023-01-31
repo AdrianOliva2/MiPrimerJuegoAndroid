@@ -8,7 +8,7 @@ class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val vista = MoverFiguras(this)
+        val vista = GameView(this)
         this.setContentView(vista)
     }
 }
